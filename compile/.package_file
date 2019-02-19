@@ -1,0 +1,17 @@
+
+# root  /           ===>    /ssx-lims-web
+
+# source                    target
+
+/dist/app                    /app
+
+/dist/public                 /public
+
+/views                       /views
+
+/package.json                /package.json
+
+
+
+
+

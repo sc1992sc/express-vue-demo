@@ -1,0 +1,13 @@
+common:
+    ok: {code: 0, message: 正常, description: 正常}
+    illegalParam: {code: '05000011', message: 非法请求, description: 请求参数错误}
+    systemError: {code: '05000023', message: 系统错误, description: lims-web系统错误或lims-core系统错误}
+    permissionForbid: {code: '05000031', message: 非法请求, description: 进行未经授权的操作}
+    IPChanged: {code: '05000040', message: 您已切换网络，请重新登录, description: 登录后检测到IP改变}
+    userAgentChanged: {code: '05000050', message: 您已切换浏览器，请重新登录, description: 登录后检测到userAgent改变}
+getAuthCode:
+    sendEmailFaild: {code: '05100000', message: 邮件发送失败，请稍后再试, description: 邮箱服务器故障}
+    notALocalMail: {code: '05100010', message: 邮件发送失败，请仔细检查用户邮箱, description: 邮件无法发送(邮件名不存在)}
+login:
+    authCodeError: {code: '05101000', message: 验证码错误或已过期, description: 验证码错误}
+    userNotExist: {code: '05101010', message: 用户名不存在, description: 用户未注册，或邮箱名不存在}
